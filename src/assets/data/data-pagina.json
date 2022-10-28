@@ -1,0 +1,37 @@
+{
+
+    "titulo": "Emiliano Giordano's",
+    "email": "emigiorda@hotmail.com",
+    "nombre_corto": "Emigio's",
+    "pagina_autor": "https://emigio.com",
+    "facebook": "https://facebook.com",
+    "twitter": "https://twitter.com",
+    "instagram": "https://instagram.com",
+    "tumblr": "https://tumblr.com",
+    "linkedin": "https://www.linkedin.com/in/emiliano-nahuel-giordano-a44393225/",
+    "equipo_trabajo": [
+        {
+            "frase":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+            "nombre":"Robert De Niro",
+            "subtitulo":"Actor",
+            "twitter":"@Rob_D_Niro",
+            "url":"https://firebasestorage.googleapis.com/v0/b/angular-html-e1908.appspot.com/o/team-1.jpg?alt=media&token=9c9d4cc5-8487-4d8e-b0f0-e8e0c389df73"
+            },
+            {
+            "frase":"Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+            "nombre":"Gwyneth Paltrow",
+            "subtitulo":"Actriz",
+            "twitter":"@GwynethPaltrow",
+            "url":"https://firebasestorage.googleapis.com/v0/b/angular-html-e1908.appspot.com/o/team-2.jpg?alt=media&token=eb0ccc4c-01d3-4776-9fc7-0d4198b35c09"
+            },
+            
+            {
+            "frase":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nombre":"George Clooney",
+            "subtitulo":"Actor",
+            "twitter":"@NotengoTwitter",
+            "url":"https://firebasestorage.googleapis.com/v0/b/angular-html-e1908.appspot.com/o/team-3.jpg?alt=media&token=ceec62bf-516b-4b56-8cf9-52b543a7d618"
+            }
+    ]
+
+}

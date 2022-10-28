@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+/* SVG */
+
+svg path,
+svg rect{
+  fill: black;
+}
+
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.animated-delay1 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.animated-delay2 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+@media (prefers-reduced-motion) {
+    .animated {
+        -webkit-animation: unset !important;
+        animation: unset !important;
+        -webkit-transition: none !important;
+        transition: none !important;
+    }
+}
+
+.delay1 {
+    transition-delay: 1s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
