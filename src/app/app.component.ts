@@ -10,7 +10,7 @@ import { ProductosService } from './services/productos.service';
 export class AppComponent {
 
   constructor( public _infoPaginaService: InfoPaginaService,
-               public _productosService: ProductosService ){
+               public _productosService: ProductosService ) {
 
   }
 

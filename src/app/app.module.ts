@@ -9,6 +9,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { Item1Component } from './pages/item1/item1.component';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { Item1Component } from './pages/item1/item1.component';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    Item1Component
+    Item1Component,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
